@@ -1,0 +1,9 @@
+D:\!!!OLEG\!!!WORK\Studying\ММЧМ\Labs\Lab1\lang\MathLab2\MathLab2\bin\Debug\MathLab2.exe.config
+D:\!!!OLEG\!!!WORK\Studying\ММЧМ\Labs\Lab1\lang\MathLab2\MathLab2\bin\Debug\MathLab2.exe
+D:\!!!OLEG\!!!WORK\Studying\ММЧМ\Labs\Lab1\lang\MathLab2\MathLab2\bin\Debug\MathLab2.pdb
+D:\!!!OLEG\!!!WORK\Studying\ММЧМ\Labs\Lab1\lang\MathLab2\MathLab2\bin\Debug\ScottPlot.dll
+D:\!!!OLEG\!!!WORK\Studying\ММЧМ\Labs\Lab1\lang\MathLab2\MathLab2\bin\Debug\System.Drawing.Common.dll
+D:\!!!OLEG\!!!WORK\Studying\ММЧМ\Labs\Lab1\lang\MathLab2\MathLab2\obj\Debug\MathLab2.csprojAssemblyReference.cache
+D:\!!!OLEG\!!!WORK\Studying\ММЧМ\Labs\Lab1\lang\MathLab2\MathLab2\obj\Debug\MathLab2.csproj.CopyComplete
+D:\!!!OLEG\!!!WORK\Studying\ММЧМ\Labs\Lab1\lang\MathLab2\MathLab2\obj\Debug\MathLab2.exe
+D:\!!!OLEG\!!!WORK\Studying\ММЧМ\Labs\Lab1\lang\MathLab2\MathLab2\obj\Debug\MathLab2.pdb
