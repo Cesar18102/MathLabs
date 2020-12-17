@@ -34,7 +34,7 @@ namespace MathLab2
                 Equations = new List<Func<double[], double>>() { Func1 },
                 Init = new double[] { 0 },
                 Start = 0,
-                End = 2,
+                End = 1.9,
                 Delta = 0.05,
                 PassX = true
             };

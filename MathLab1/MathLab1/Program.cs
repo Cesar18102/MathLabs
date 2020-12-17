@@ -16,6 +16,7 @@ namespace MathLab1
             program.Task1();
             program.Task2();
             program.Task3();
+            program.Task4();
         }
 
         public (int height, int width) GetMatrixSize<T>(T[,] matrix)
@@ -326,6 +327,28 @@ namespace MathLab1
 
         public void Task3()
         {
+            Func<double, double> y1 = xv => Math.Sin(xv);
+            Func<double, double> y2 = xv => 1.0 / xv;
+
+            double[] xs = Range.Make(0.1, 1, 0.05);
+
+            double[] y1s = xs.Select(xv => y1(xv)).ToArray();
+            double[] y2s = xs.Select(xv => y2(xv)).ToArray();
+
+            Plot plotY1 = new Plot();
+            plotY1.PlotSignalXY(xs, y1s);
+
+            Plot plotY2 = new Plot();
+            plotY2.PlotSignalXY(xs, y2s);
+
+            ShowPlotForm(
+                plotY1.Render(),
+                plotY2.Render()
+            );
+        }
+
+        public void Task4()
+        { 
             Plot plotPoints = new Plot();
             Plot plotSmooth = new Plot();
 
@@ -346,6 +369,15 @@ namespace MathLab1
                 plotPoints.Render(), 
                 plotSmooth.Render()
             );
+        }
+
+        public static class Range
+        {
+            public static double[] Make(double start, double end, double delta)
+            {
+                int count = (int)Math.Ceiling((end - start) / delta);
+                return Enumerable.Range(0, count).Select(i => i * delta + start).ToArray();
+            }
         }
     }
 }

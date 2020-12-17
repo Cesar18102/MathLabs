@@ -43,6 +43,9 @@ namespace MathLab4
 
             (double[] mins, double[] maxs) = FindExtremumsUniform(f, -4, 4, 0.01);
 
+            Console.WriteLine("MINS: " + string.Join(" ", mins));
+            Console.WriteLine("MAXS: " + string.Join(" ", maxs));
+
             Plot plot = new Plot();
 
             plot.PlotSignalXY(xs, Poly.Val(f, xs), Color.Red, 7, label: "Original signal");
